@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container1{
+    width: 80vw;
+    height: 70px;
+    /* border: 2px solid black; */
+    margin-left: 130px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr 2fr;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: aquamarine;
+}
+#box3{
+    background-color: blanchedalmond;
+}
+#box4{
+    background-color: rgb(74, 216, 235);
+}
+.container2{
+    width: 90vw;
+    height: 700px;
+    /* border: 2px solid black; */
+    margin-left: 60px;
+    margin-top: 30px;
+    /* display: grid;
+    
+    grid-template-areas: "box1 box1 box2"
+                         "box3 box4 box5"
+                         "box6 box6 box7"; */
+                         display: grid;
+                         grid-template-rows: 4fr 2fr 4fr;
+                         grid-template-columns: repeat(3,2fr); 
+                         grid-template-areas:
+                           "area1 area1 area2"
+                           "area3 area4 area5"
+                           "area6 area6 area7";
+
+
+}
+#box5{
+    grid-area: area1;
+    background-color: aqua;
+}
+#box6{
+    grid-area: area2;
+    background-color:aquamarine;
+}
+#box7{
+    grid-area: area3;
+    background-color: bisque;
+}
+#box8{
+    grid-area: area4;
+    background-color: black;
+}
+#box9{
+    grid-area: area5;
+    background-color: blue;
+}
+
+#box10{
+    grid-area: area6;
+    background-color: blueviolet;
+}
+#box11{
+    grid-area: area7;
+    background-color: brown;
+}
+.container3{
+    width: 90vw;
+    height: 400px;
+    /* border: 2px solid black; */
+    margin-left: 60px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: repeat(2,2fr);
+}
+#box12{
+    background-color: rgb(218, 201, 201);
+}
+#box13{
+    background-color: rgb(124, 134, 134);
+}
+.container4{
+    width: 90vw;
+    height: 400px;
+    /* border: 2px solid black; */
+    margin-left: 60px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 2fr;
+}
+#box14{
+    background-color: antiquewhite;
+}
+#box15{
+    background-color: rgb(88, 209, 7);
+}
+#box16{
+    background-color: rgb(122, 73, 9);
+}
+#box17{
+    background-color: rgb(39, 34, 27);
+}

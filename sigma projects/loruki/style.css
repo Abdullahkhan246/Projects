@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", serif;
+    line-height: 1.5;
+    color: #333;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1,h2{
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+p{
+    margin: 10px 0;
+}
+img{
+    width: 100%;
+}
+/* .navbar{
+    background-color: #047aed;
+    color: #fff;
+    height: 18vh;
+    transition: all 2s ease-in 2s ;
+}
+.navbar:hover{
+    background: linear-gradient(to bottom,#047aed,#333);
+} */
+
+
+/* .navbar {
+    background-color: #2196f3; 
+    background-size: 0%; 
+    background-repeat: no-repeat;
+    transition: background-size 1s ease-in 1s; 
+}
+
+.navbar:hover {
+    background: linear-gradient(45deg,#2196f3, #333); 
+    background-size: 200%; 
+} */
+ .navbar{
+    background-color: #046aed;
+    color: #fff;
+    height: 18vh;
+    animation: changeBackground 1s linear(0 0%, 0.4 53.68%, 0.9 50%, 1 100%) 1s   ;
+ }
+ @keyframes changeBackground {
+    0% {
+        background-color: #046aed; /* Initial solid blue */
+    }
+    50% {
+        background-color: #333; 
+    }
+    100%{
+        background: linear-gradient(45deg,#046aed,#333 );
+    }
+}
+
+.navbar ul{
+    display: flex;
+}
+.navbar a{
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+.navbar a:hover{
+    border-bottom: 2px solid #fff ;
+}
+.navbar .flex0{
+    justify-content: space-between;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+.flex0{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100%;
+}
