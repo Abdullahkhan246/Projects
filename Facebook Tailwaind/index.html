@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/output.css">
-    <title>Document</title>
+    <link rel="icon" href="favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Facebook login page - Tailwind CSS
+
+    </title>
 </head>
 <body class="bg-gray-100">
-    <div class="container mt-48 flex mx-auto justify-center items-center">
-        <div class="left w-1/2 mx-14">
-            <img class="w-60" src="image.png" alt="facebook image">
-            <p class="text-3xl mx-6 ">Facebook helps you connect and share with the people in your life.</p>
-        </div>
-        <div class="right flex flex-col  bg-white p-8 rounded-lg w-1/4 relative">
-            <input class=" border  border-1 border-gray-200 rounded-lg px-4 h-12 my-2 outline-blue-600 " type="text" placeholder="Email address or phone number">
-            <input class="outline-blue-600  border  border-1 border-gray-200 rounded-lg px-4 h-12 my-2" type="password" placeholder="password">
-            <button class="bg-blue-600 text-white my-2 py-3 rounded-md font-bold  hover:bg-blue-700">Log in</button>
-            <span class="text-blue-600 text-center text-sm my-2 cursor-pointer hover:underline" >Forgitten password</span>
-            <hr my-2>
-            <button class="bg-green-600 hover:bg-green-700 text-white my-2 py-3 rounded-md font-bold w-fit px-4 mx-auto ">Create new account</button>
-            <span class="absolute -bottom-12 text-sm "><span class="font-bold hover:underline cursor-pointer">Create a page</span> for celebreity, brand and bussiness</span>
+    <div class="min-h-screen flex items-center justify-center px-4">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-16">
+            <div class="left w-full lg:w-1/2 text-center lg:text-left">
+                <img class="w-52 md:w-60 mx-auto lg:mx-0" src="image.png" alt="Facebook image">
+                <p class="text-2xl md:text-3xl mt-4 lg:mt-6">Facebook helps you connect and share with the people in your life.</p>
+            </div>
+            <div class="right flex flex-col bg-white p-4 sm:p-6 md:p-8 rounded-lg w-full max-w-sm shadow-md relative">
+                <input class="border border-gray-200 rounded-lg px-4 h-12 my-2 outline-blue-600" type="text" placeholder="Email address or phone number">
+                <input class="outline-blue-600 border border-gray-200 rounded-lg px-4 h-12 my-2" type="password" placeholder="Password">
+                <button class="bg-blue-600 text-white my-2 py-3 rounded-md font-bold hover:bg-blue-700">Log in</button>
+                <span class="text-blue-600 text-center text-sm my-2 cursor-pointer hover:underline">Forgotten password?</span>
+                <hr class="my-2">
+                <button class="bg-green-600 hover:bg-green-700 text-white my-2 py-3 rounded-md font-bold w-fit px-4 mx-auto">Create new account</button>
+        
+                    <span class="font-bold hover:underline cursor-pointer text-center">Create a page</span> 
+                    <span class="text-center">for celebrity, brand and business</span>
+                
+            </div>
         </div>
     </div>
 </body>
