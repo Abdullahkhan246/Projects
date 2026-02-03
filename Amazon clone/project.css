@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
 }
-.navbar{
+
+.navbar {
     height: 60px;
     background-color: #0f1111;
     color: white;
@@ -12,48 +13,56 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.navlogo{
-    
+
+.navlogo {
+
     height: 50px;
     width: 100px;
 }
-.logo{
-    
+
+.logo {
+
     height: 50px;
     width: 100px;
-    background-image: url("amazon_logo.png");
+    background-image: url("./assets/amazon_logo.png");
     background-size: cover;
 }
-.border{
+
+.border {
     border: 1.5px solid transparent;
 }
-.border:hover{
+
+.border:hover {
     border: 1.5px solid white;
 }
+
 /*box2*/
-.first{
+.first {
     color: #cccccc;
     font-size: 1rem;
     margin-left: 15px;
 }
-.second{
+
+.second {
     font-size: 1rem;
     margin-left: 3px;
 }
-.navicon{
+
+.navicon {
     display: flex;
     align-items: center;
 }
+
 /*box3*/
-.navsearch{
+.navsearch {
     display: flex;
     justify-content: space-evenly;
     width: 620px;
     height: 40px;
-    
+
 }
 
-.all{
+.all {
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
@@ -61,13 +70,15 @@
     border-bottom-left-radius: 10px;
     border: none;
 }
-.search{
+
+.search {
     width: 100%;
     font-size: 1rem;
     border: none;
     outline: none;
 }
-.searchicon{
+
+.searchicon {
     width: 45px;
     display: flex;
     justify-content: center;
@@ -78,27 +89,32 @@
     border-bottom-right-radius: 10px;
 }
 
-.america{
+.america {
     /* border: 10px; */
     /* padding: 20px; */
 }
+
 /*box5 box6 */
-span{
+span {
     font-size: 0.8rem;
 }
-.navsecond{
+
+.navsecond {
     font-size: 0.9rem;
     font-weight: 700;
 }
+
 /*box7*/
-.cart i{
+.cart i {
     font-size: 30px;
 
 }
-span{
+
+span {
     font-size: 0.85rem;
 }
-.panel{
+
+.panel {
     height: 40px;
     background-color: #222f3d;
     display: flex;
@@ -106,24 +122,29 @@ span{
     align-items: center;
     justify-content: space-evenly;
 }
-.opt p{
+
+.opt p {
     display: inline-block;
     font-size: 0.8rem;
     margin-left: 10px;
 }
-.opt{
+
+.opt {
     width: 100%;
 
 }
-.panelall{
+
+.panelall {
     width: 10%;
 }
-.paneldeals{
+
+.paneldeals {
     width: 20%;
     font-size: 0.9rem;
 }
-.herosection{
-    background-image: url("hero_image.jpg");
+
+.herosection {
+    background-image: url("./assets/hero_image.jpg");
     height: 400px;
     background-size: cover;
     display: flex;
@@ -131,55 +152,66 @@ span{
     justify-content: center;
 
 }
-.heromsg{
+
+.heromsg {
     background-color: white;
     color: black;
     height: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;font-size: 0.85rem;
+    justify-content: center;
+    font-size: 0.85rem;
     width: 80%;
     margin-bottom: 25px;
 
 }
-.heromsg a{
+
+.heromsg a {
     color: #007185;
 }
-.shopsection{
+
+.shopsection {
     display: flex;
     justify-content: space-evenly;
     background-color: #e2e7e6;
     flex-wrap: wrap;
 }
-.box{
-   /* border: 2px solid black;*/
+
+.box {
+    /* border: 2px solid black;*/
     height: 400px;
     width: 23%;
-    background-color: white ;
+    background-color: white;
     padding: 20px 0px 15px;
     margin-top: 10px;
 
 }
-.boximg{
+
+.boximg {
     height: 300px;
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.boxcontent{
+
+.boxcontent {
     margin-left: 10px;
     margin-right: 10px;
 }
-.boxcontent p{
+
+.boxcontent p {
     color: #007185;
 }
-.boxcontent h1{
+
+.boxcontent h1 {
     font-size: 25px;
 }
-footer{
+
+footer {
     margin-top: 15px;
 }
-.foot-panel{
+
+.foot-panel {
     background-color: #37475a;
     color: white;
     height: 50px;
@@ -188,7 +220,8 @@ footer{
     align-items: center;
     font-size: 0.85rem;
 }
-#footpanel2{
+
+#footpanel2 {
     background-color: #222f3d;
     color: white;
     height: 500px;
@@ -196,15 +229,18 @@ footer{
     justify-content: space-evenly;
 
 }
-ul p{
-display: block;
-margin-top: 10px;
-columns: #dddddd;
+
+ul p {
+    display: block;
+    margin-top: 10px;
+    columns: #dddddd;
 }
-ul{
+
+ul {
     margin-top: 25px;
 }
-.footpanel3{
+
+.footpanel3 {
     background-color: #222f3d;
     color: white;
     border-top: 2px solid white;
@@ -213,30 +249,191 @@ ul{
     justify-content: center;
     align-items: center;
 }
-.logo{
+
+.logo {
     height: 50px;
     width: 100px;
-    background-image: url("amazon_logo.png");
+    background-image: url("./assets/amazon_logo.png");
     background-size: cover;
 }
-.footpanel4{
+
+.footpanel4 {
     background-color: #0f1111;
     color: white;
     height: 80px;
 }
-.pages{
+
+.pages {
     text-decoration: none;
     font-size: 1rem;
     display: flex;
     justify-content: center;
     padding-top: 25px;
 }
-.copyright{
+
+.copyright {
     font-size: 1rem;
     display: flex;
     justify-content: center;
     padding-top: 10px;
 }
-.pages a{
+
+.pages a {
     text-decoration: none;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Tablet (max-width: 992px) */
+@media (max-width: 992px) {
+    .navbar {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px 0;
+    }
+
+    .navsearch {
+        order: 1;
+        /* Move search below on smaller screens if needed, or just shrink */
+        width: 50%;
+    }
+
+    .navadress,
+    .america {
+        display: none;
+        /* Hide less critical elements */
+    }
+
+    .box {
+        width: 48%;
+        /* 2 columns */
+    }
+
+    #footpanel2 {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    #footpanel2 ul {
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+    .navsearch {
+        display: none;
+        /* Hide search on very small mobile if it breaks layout, or adjust */
+        /* Alternatively, create a mobile search icon logic, but for pure css clone: */
+        /* Let's try to keep it but make it full width if we wrap */
+    }
+
+    /* Better Mobile Navbar Approach */
+    .navbar {
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .navlogo {
+        width: 80px;
+    }
+
+    .logo {
+        width: 80px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .navsearch {
+        display: flex;
+        /* Keep layout */
+        width: 100%;
+        order: 2;
+        /* Force to new line if we allow wrapping */
+        margin-top: 10px;
+    }
+
+    .navsignin,
+    .navreturn,
+    .cart {
+        font-size: 0.8rem;
+    }
+
+    .navsignin p,
+    .navreturn p,
+    .cart span {
+        font-size: 0.7rem;
+    }
+
+    .panel {
+        font-size: 0.8rem;
+        overflow-x: auto;
+        /* Allow horizontal scroll for panel */
+        justify-content: flex-start;
+    }
+
+    .panelall,
+    .opt,
+    .paneldeals {
+        flex-shrink: 0;
+        margin-right: 15px;
+    }
+
+    .opt {
+        width: auto;
+    }
+
+    .herosection {
+        height: 250px;
+        /* Reduce hero height */
+    }
+
+    .heromsg {
+        width: 95%;
+        font-size: 0.7rem;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .shopsection {
+        padding: 0 10px;
+    }
+
+    .box {
+        width: 100%;
+        /* 1 column */
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .boximg {
+        height: 250px;
+    }
+
+    #footpanel2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #footpanel2 ul {
+        width: 100%;
+    }
+
+    .footpanel4 {
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .pages {
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .pages a {
+        margin-bottom: 5px;
+    }
 }
